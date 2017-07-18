@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Loops and Arrays</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Valerie Montalvo</div>
+    </body>
+    <script>
+        var a = "string";
+        var b = 10;
+        var c = true;
+        
+        console.log(typeof a);
+        console.log(typeof b);
+        console.log(typeof c);
+        
+        function add(num1, num2){
+            var sum = num1 + num2;
+            return sum;
+            
+        }
+        
+        console.log("5 + 2 = " + add(5,2));
+        
+        var myArray = new Array();
+        
+        for (var i = 1; i <= 100; i++)
+        {
+            myArray[i] = i;
+            console.log(myArray[i]);
+        }
+    </script>
+</html>
